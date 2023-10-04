@@ -13,6 +13,7 @@ export default function Home() {
          <Navbarexample />
          <FirstCarousel />
          <Languagelist />
+         <Details/>
          <FooterExample />
       </Stack>
     </>
