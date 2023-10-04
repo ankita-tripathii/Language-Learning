@@ -1,4 +1,6 @@
   import React from "react";
+  import Navbarexample from "../navbar/navbar";
+  import FooterExample from "../footer/footer";
   import { useState } from 'react';
   import Row from 'react-bootstrap/Row';
   import Col from 'react-bootstrap/Col';
@@ -53,7 +55,8 @@
   };
 
     return (
-
+      <>
+      <Navbarexample />  
       <Container>
         <Row sticky="top">
           <Col>
@@ -106,6 +109,7 @@
       )}
       
       </Container>
-
-
-      )}
+      <FooterExample />
+       </>
+      )
+  }

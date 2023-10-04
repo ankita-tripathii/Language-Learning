@@ -1,4 +1,6 @@
   import React from "react";
+  import Navbarexample from "../navbar/navbar";
+  import FooterExample from "../footer/footer";
   import Row from 'react-bootstrap/Row';
   import Col from 'react-bootstrap/Col';
   import Container from "react-bootstrap/Container";
@@ -8,7 +10,9 @@
 
   export default function About(){
     return(
-
+           
+       <>
+       <Navbarexample />   
        <Container>
               <Row>
                   <Col lg={6}>
@@ -70,5 +74,7 @@
                  </Col>
               </Row>
         </Container>
+        <FooterExample />
+        </>
       )
   }

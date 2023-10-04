@@ -1,5 +1,5 @@
   import React from "react";
-  import { Link } from 'react-router-dom'
+  import { Outlet, Link } from "react-router-dom";
   import Row from 'react-bootstrap/Row';
   import Col from 'react-bootstrap/Col';
   import Container from "react-bootstrap/Container";
@@ -28,9 +28,9 @@
           <Col lg={8}>
           <Navbar.Collapse id="basic-navbar-nav" >
             <Nav className="me-auto" >
-              <NavLink  To="main" >Home</NavLink>
-              <NavLink To="/about" >About</NavLink>
-               <NavLink To="/managelanguages" >Manage Languages</NavLink>
+              <Nav.Link  href="/" >Home</Nav.Link>
+              <Nav.Link href="/about" >About</Nav.Link>
+               <Nav.Link href="/managelanguages" >Manage Languages</Nav.Link>
               <NavDropdown title="languages" id="basic-nav-dropdown" >
                 <NavDropdown.Item href="#">Learn Chinese</NavDropdown.Item>
                 <NavDropdown.Item href="#">Learn Japanese</NavDropdown.Item>
@@ -49,12 +49,12 @@
           <Col lg={1} >
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
              <Nav className="me-auto" >
-              <NavLink To="/authform" style={{color: 'white'}}>Login</NavLink>
+              <Nav.Link href="/authform" style={{color: 'white'}}>Login</Nav.Link>
             </Nav> 
           </Col>
           </Navbar>   
 
-          
+          <Outlet />
           </>
     );
   }

@@ -57,14 +57,15 @@ export default function AuthForm() {
     return (
     <div className={styles.AuthFormContainer}>
       <form className={styles.AuthForm}>
-        <div className={styles.AuthFormContant}>
+        <div className={styles.AuthFormContent}>
           <h3 className={styles.AuthFormTitle}>Sign Up</h3>
           <div className="text-center">
             Already registered?{" "}
             <span type="button" className="link-primary" onClick={changeAuthMode}>
               Sign In
             </span>
-          </div>
+          </div >
+          
           <div className="form-group mt-3">
             <label>Full Name</label>
             <input
