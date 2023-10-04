@@ -1,0 +1,20 @@
+.heading{
+	text-align: center;
+	font-weight: bold;
+}
+
+.tableheading{
+	text-align: center;
+	font-weight: bold;
+}
+
+.imgr {
+  width: 246px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.buttonstyle{
+	display: flex;
+	
+}
