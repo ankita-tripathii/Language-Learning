@@ -3,21 +3,12 @@
   import './App.css';
   import {Main} from "./components/main/main";
 
-  import {
-    BrowserRouter as Router,
-    Routes,
-    Route,
-    Link
-  } from "react-router-dom";
-
-
-
   function App() {
     return (
      
        <div>
         <Main />
-      </div>
+       </div>
       
     );
   }

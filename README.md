@@ -1,33 +1,55 @@
-# <h1 align="center"> Language Learning </h1>
-<br/>
+# Language Learning
 
-## Getting Started
+A Language Learning Website made with React.js Framework.
 
-To run the Language Learning web application locally, please follow these steps:
 
-1. git clone https://github.com/ankita-tripathii/Language-Learning
-2. cd Language Learning
-3. npm install
-4. npm start
-
-## Technologies Used
-
-- ReactJS
-- react-router-dom
-- fetch local json data
-- react-bootstrap for css
 
 ## Features
 
-- use components
+- create components
+- use react router
+- created modal and pass the data using props
+- used react-sliding-pane for ui and for edit and update the data
+- used local JSON data
 
-- Language Listing Page
 
-- Edit sliding-pane for language updates
+## Screenshots
 
-- view modal
+![App Screenshot](https://i.ibb.co/W009f38/manage-language.png)
 
-- User login and register Page
 
-- Responsive
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/ankita-tripathii/Language-Learning
+```
+
+Go to the project directory
+
+```bash
+  cd Language-Learning
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm start
+```
+
+
+
+## Tech Stack
+
+* [React](https://reactjs.org/)
+* [Bootstrap](https://getbootstrap.com/)
+
 
